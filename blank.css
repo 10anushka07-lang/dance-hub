@@ -1,0 +1,41 @@
+/* Home Section */
+#home {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url('dance-bg.jpg') no-repeat center center/cover;
+    color: white;
+    border-bottom: 5px electric crimson;
+}
+
+#home .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.7rem 1.5rem;
+    background-color: electric crimson;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+#home .btn:hover {
+    background-color: green;
+    color: white;
+}
+
+/* Sections */
+section {
+    padding: 4rem 2rem;
+    background-color: black;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: electric crimson;
+}
