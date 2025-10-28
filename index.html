@@ -1,122 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dance Hub</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dance Hub</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <nav>
-        <div class="logo">💃 Dance Hub</div>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#tutorials">Tutorials</a></li>
-            <li><a href="#moves">Dance Moves</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
 
-    
-    
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">💃 Dance Hub</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#tutorials">Tutorials</a></li>
+      <li><a href="#moves">Dance Moves</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-    <section id="home">
+  <!-- Home Section -->
+  <section id="home">
     <div class="overlay"></div>
     <div class="home-content">
-        <h1>Feel The Rhythm, Live The Dance</h1>
-        <p>Learn. Groove. Express. Your Dance Journey Starts Here.</p>
-        <a href="#tutorials" class="btn">Start Dancing</a>
+      <h1>Feel The Rhythm, Live The Dance</h1>
+      <p>Learn. Groove. Express. Your Dance Journey Starts Here.</p>
+      <a href="#tutorials" class="btn">Start Learning</a>
     </div>
-</section>
-<!-- ROADMAP SECTION -->
-<section id="roadmap">
-  <div class="container">
-    <h2>Dance Roadmap</h2>
-    <div class="levels">
-      <button class="level-btn active" data-level="beginner">Beginner</button>
-      <button class="level-btn" data-level="intermediate">Intermediate</button>
-      <button class="level-btn" data-level="advanced">Advanced</button>
-    </div>
+  </section>
 
+  <!-- Tutorials Section -->
+  <section id="tutorials">
+    <h2 style="text-align:center; margin: 2rem 0; color: cyan;">Tutorials</h2>
     <div id="modules-container">
-      <!-- Modules for selected level will be injected here -->
+      <!-- Tutorial modules will be injected here -->
     </div>
-  </div>
-</section>
+  </section>
 
-    <section id="tutorials">
-        <h2>Dance Tutorials</h2>
-        <div class="cards">
-            <div class="card">
-                <img src="images/hip hop.jpg" alt="Hip Hop">
-                <h3>Hip-Hop Basics</h3>
-                <p>Learn the fundamental steps of hip-hop dance.</p>
-            </div>
-            <div class="card">
-                <img src="images/ballet.jpg" alt="Ballet">
-                <h3>Ballet Moves</h3>
-                <p>Master basic ballet techniques and poses.</p>
-            </div>
-            <div class="card">
-                <img src="images/salsa.jpg" alt="Salsa">
-                <h3>Salsa Steps</h3>
-                <p>Feel the rhythm and learn salsa steps easily.</p>
-        
-            </div>
-            <div class="card">
-                <img src="images/k-pop dance.jpg" alt="k-pop">
-                <h4> k-pop styles </h4>
-                <p> learn to dance like k-pop stars </p>
-            
-        </div>
-            <div class="record">
-                <img src ="images/bollywoodpop.jpg" alt="bollywoodpop">
-                <h5> bollywoodpop</h5>
-                <p> vibe and feel the music </p>
-        
-    </section>
-
-   
-    <section id="moves">
-        <h2>Dance Moves</h2>
-        <ul>
-            <li>Moonwalk</li>
-            <li>Pirouette</li>
-            <li>Body Roll</li>
-            <li>Shuffle</li>
-        </ul>
-    </section>
-
-    
-    <section id="blog">
-        <h2>Dance Knowledge</h2>
-        <article>
-            <h3>The History of Hip-Hop</h3>
-            <p>Hip-hop dance started in the 1970s in the Bronx, New York...</p>
-        </article>
-        <article>
-            <h3>Benefits of Dancing</h3>
-            <p>Dancing improves flexibility, boosts mood, and enhances coordination...</p>
-        </article>
-    </section>
-
-   
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Dance Hub | All Rights Reserved</p>
-    </footer>
-
-    <script src="app.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
