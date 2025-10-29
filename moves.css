@@ -1,3 +1,5 @@
+/* moves.css */
+
 /* Reset + Base */
 * {
   margin: 0;
@@ -44,7 +46,7 @@ nav ul li a:hover {
   color: cyan;
 }
 
-/* Section Title (Original) */
+/* Section Title */
 #moves-section {
   padding: 3rem 2rem;
   text-align: center;
@@ -57,27 +59,15 @@ nav ul li a:hover {
   margin-bottom: 2rem;
 }
 
-/* NEW: Center Content 
-  This rule now correctly targets your card containers 
-*/
-.card-grid,
-.card-container {
+/* Center Content */
+#moves-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* This centers the cards */
-  align-items: stretch;
+  justify-content: center;   /* centers horizontally */
+  align-items: center;       /* centers vertically if needed */
   gap: 2rem;
-}
-
-/* NEW: Center Section Titles 
-  This centers your "Featured Videos" and "In-Depth Articles" headings
-*/
-.featured h2,
-.articles h2 {
   text-align: center;
-  margin-bottom: 2rem;
 }
-
 
 /* Each Dance Card */
 .move-card {
