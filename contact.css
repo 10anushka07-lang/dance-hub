@@ -1,0 +1,123 @@
+/* contact.css */
+
+/* Reset + Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: black;
+  color: white;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightcyan;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  color: cyan;
+}
+
+/* Contact Section */
+#contact-section {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+#contact-section h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: cyan;
+  margin-bottom: 1rem;
+}
+
+#contact-section p {
+  color: #ccc;
+  margin-bottom: 2rem;
+}
+
+/* Contact Form */
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: #0b0b0b;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.6);
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.contact-form label {
+  color: cyan;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 6px;
+  background: #1a1a1a;
+  color: white;
+  resize: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: 1px solid cyan;
+}
+
+.contact-form button {
+  padding: 0.8rem;
+  border: none;
+  border-radius: 6px;
+  background: cyan;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: lightcyan;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #0b0b0b;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  margin-top: 2rem;
+  color: #aaa;
+}
