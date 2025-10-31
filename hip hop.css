@@ -81,7 +81,7 @@ nav ul li a:hover {
 
 /* Each Dance Card */
 .move-card {
-  width: 320px;
+  width: 400px;
   background: #0b0b0b;
   border-radius: 10px;
   overflow: hidden;
