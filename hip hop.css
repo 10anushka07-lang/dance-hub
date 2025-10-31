@@ -202,7 +202,7 @@ section h2 {
 
 /* ========== Dance Move Cards ========== */
 .move-card {
-  width: 490px;
+  width: 500px;
   background: #0b0b0b;
   border-radius: 10px;
   overflow: hidden;
@@ -210,6 +210,7 @@ section h2 {
   border: 1px solid rgba(255, 255, 255, 0.06);
   transition: transform 0.3s ease;
   margin: 1rem; /* Space around each card */
+  
 }
 
 .move-card:hover {
