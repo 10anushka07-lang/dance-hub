@@ -15,8 +15,8 @@ A responsive dance-themed website built using HTML and CSS.
 ## Project Structure
 
 dance-hub/
-├── css/ - contains all the styleshhets
-├── images/ -contains all the images
-├── pages/
-└── index.html
+├── css/ - contains all the stylesheets <br>
+├── images/ -contains all the images <br>
+├── pages/ <br>
+└── index.html <br>
 
